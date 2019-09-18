@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Pagina Principal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:20px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-yellow w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+<img src="imagen.3.jpg" alt="img" width="200" height="200">
+<p> Ramos Espinoza Luis David </p>
+<p> 920 - 525 - 699 </p>
+<p> Estudiante Universitario  </p>
+<p> Educacion Secundaria : Informatica </p>
+<p> Universidad San Ignacio de Loyola </p>
+    <h3 class="w3-padding-64"><b>Mis Desarrollos<br>Semanales</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Inicio</a> 
+    <a href="#Semana 1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Semana 1</a> 
+    <a href="#Semana 2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Semana 2</a> 
+    <a href="#Semana 3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Semana 3</a> 
+<a href="#Semana 4" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Semana 4</a> 
+<a href="#Semana 5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Semana 5</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">?</a>
+  <span>Mis Desarrollos Semanales</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-left:100px" id="showcase">
+    <h1 class="w3-jumbo"><b>Arquitectura de Computadoras</b></h1>
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Introduccion</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+<img src="imagen.11.jpg" alt="img" width="400" height="400">
+    </div>
+    <div class="w3-half">
+<img src="imagen.12.jpg" alt="img" width="400" height="400">
+   </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Semana 1 -->
+  <div class="w3-container" id="Semana 1" style="margin-left:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Semana 1.</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+   <img src="imagen.1.jpg" alt="img" width="800" height="400">
+    <p>Breve descripcion de la Aritmetica de Binarios</p>
+    <p>La Unidad Aritmetico Logica, en la CPU del procesador, es capaz de realizar operaciones aritmeticas, con datos numericos expresados en el sistema binario. Naturalmente, esas operaciones incluyen la adicion, la sustraccion, el producto y la division. Las operaciones se hacen del mismo modo que en el sistema decimal, pero debido a la sencillez del sistema de numeracion, pueden hacerse algunas simplificaciones que facilitan mucho la realizacion de las operaciones.</p>
+<a href="https://www.mindomo.com/mindmap/3f84b15305f74fd3a7a140a319f70aef
+">Aritmetica de Binarios</a> <img src="imagen.14.jpg"alt="img" width="80"height="30"> <br>
+<a href="https://docs.google.com/document/d/1ovhVqQeNcqXqGIFOiEx89cGzYzAI4az6Ltgm4xEdEjI/edit?usp=sharing
+">Balotario de Aritmetica de Binarios</a> <img src="imagen.15.jpg"alt="img" width="100"height="70">
+    </p>
+  </div>
+
+<!-- Semana 2 -->
+  <div class="w3-container" id="Semana 2" style="margin-left:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Semana 2.</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+ <img src="img.1.jpg" alt="img" width="800" height="400">
+    <p>Resumen y Problemas Resultos sobre Algebra de Boole</p>
+    <p>Es una rama especial del algebra que se usa principalmente en electronica digital. El algebra booleana fue inventada en  1854 por el matematico ingles George Boole. El algebra de Boole es un metodo para simplificar los circuitos logicos (o a veces llamados circuitos de conmutacion logica) en electronica digital.
+    </p>
+
+<a href="https://www.mindomo.com/mindmap/9e2958d249b74a46abd245dda625013e
+">Resumen de Algebra de Boole</a> <img src="imagen.14.jpg"alt="img" width="100"height="30"></p>
+<a href="https://docs.google.com/document/d/1MryZ51MncTdptAMGL10DRojvqX-j-8yoqDEzSLdwNDY/edit?usp=sharing">Ejercicios y Resoluciones con Evidencias</a> <img src="imagen.15.jpg"alt="img" width="100"height="70">
+  </div>
+
+<!-- Semana 3 -->
+  <div class="w3-container" id="Semana 3" style="margin-left:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Semana 3.</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+<img src="imagen.16.jpg" alt="img" width="800" height="400">
+    <p>Breve Resumen de Circuitos Combinacionales</p>
+    <p>Circuito combinacional. Esta formado por funciones logicas elementales ( AND, OR, NAND, NOR, etc. ), que tiene un determinado numero de entradas y salidas. Es un circuito cuya salida depende solamente de la "combinacion" de sus entradas en el momento que se esta realizando la medida en la salida. Los circuitos de logica combinacional son hechos a partir de las compuertas basicas compuerta AND, compuerta OR, compuerta NOT. Tambien pueden ser construidos con compuertas NAND, compuertas NOR, compuerta XOR, que son una combinacion de las tres compuertas basicas.
+    </p>
+<a href="https://docs.google.com/presentation/d/10tVDjidWOk9gIFTgEcXELwtxV0NLjzUmzZbesh2VrvY/edit?usp=sharing
+">Resumen de Circuitos Combinacionales</a> <img src="imagen.15.jpg"alt="img" width="150"height="80">
+  </div>
+
+ <!-- Semana 4 -->
+  <div class="w3-container" id="Semana 4" style="margin-left:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Semana 4.</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+<img src="imagen.17.jpg" alt="img" width="800" height="400">
+    <p>Breve Resumen de Tipos de Arquitecturas de Computadora</p>
+    <p>La arquitectura de computadoras es el diseno conceptual y la estructura operacional fundamental de un sistema de computadoras. Es decir, es un modelo y una descripcion funcional de los requerimientos y las implementaciones de diseno para varias partes de una computadora, con especial interes en la forma en que la unidad central de proceso (CPU) trabaja internamente y accede a las direcciones de memoria.</p>
+<br>
+<p>Tambien la arquitectura del computador esta basado en tres grandes principios que se aplican a todo dispositivo o componente del computador, estos tres principios son: velocidad, capacidad y tipo de conexion.</p>
+<br>
+<p>Tambien suele definirse como la forma de interconectar componentes de hardware, para crear computadoras segun los requerimientos de funcionalidad, rendimiento y costo.
+    </p>
+<a href="https://docs.google.com/presentation/d/1al795J3020a3cJtRyvmNQX4QgHGG1xRSvu6PL79x1D4/edit?usp=sharing
+">Resumen de Tipos de Arquitecturas de Computadora</a> <img src="imagen.15.jpg"alt="img" width="150"height="80">
+  </div>
+
+<!-- Semana 5 -->
+  <div class="w3-container" id="Semana 5" style="margin-left:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Semana 5</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+<!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
